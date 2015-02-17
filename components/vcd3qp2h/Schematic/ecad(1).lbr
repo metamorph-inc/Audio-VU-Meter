@@ -19,15 +19,15 @@
       </packages>
       <symbols>
         <symbol name="CAPACITOR">
-          <description>&lt;B&gt;Capacitor, Polarized&lt;/b&gt;</description>
-          <wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.508" layer="94" />
-          <wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.508" layer="94" curve="47.924978" />
-          <wire x1="0" y1="-5.08" x2="0" y2="-4.445" width="0.1524" layer="94" />
-          <pin name="POS" x="0" y="0" visible="off" length="short" direction="pas" rot="R270" />
-          <pin name="NEG" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90" />
-          <text x="0.254" y="-2.032" size="1.27" layer="94">+</text>
-          <text x="-12.7" y="2.54" size="1.9304" layer="95">&gt;NAME</text>
-          <text x="-12.7" y="0" size="1.9304" layer="95">&gt;VALUE</text>
+          <description xmlns="eagle">&lt;B&gt;Capacitor, Polarized&lt;/b&gt;</description>
+          <wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.508" layer="94" xmlns="eagle" />
+          <wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.508" layer="94" curve="47.924978" xmlns="eagle" />
+          <wire x1="0" y1="-5.08" x2="0" y2="-4.445" width="0.1524" layer="94" xmlns="eagle" />
+          <pin name="POS" x="0" y="0" visible="off" length="short" direction="pas" rot="R270" xmlns="eagle" />
+          <pin name="NEG" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90" xmlns="eagle" />
+          <text x="0.254" y="-2.032" size="1.27" layer="94" xmlns="eagle">+</text>
+          <text x="-12.7" y="2.54" size="1.9304" layer="95" xmlns="eagle">&gt;NAME</text>
+          <text x="-12.7" y="0" size="1.9304" layer="95" xmlns="eagle">&gt;VALUE</text>
         </symbol>
       </symbols>
       <devicesets>

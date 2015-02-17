@@ -1,0 +1,5 @@
+
+.SUBCKT mycomponent 1 2
+R1 1 N003 10k
+L1 N003 2 10m
+.ENDS mycomponent

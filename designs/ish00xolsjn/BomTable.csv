@@ -1,0 +1,30 @@
+,,Design Name:,VUmeter
+,,Pricing Timestamp:,"Wednesday, February 11, 2015 3:59 PM"
+,,Cost per Unit (based on 1 unit):,$5.43
+
+"Item #",Qty,"Reference Designator",Manufacturer,"Manufacturer Part #",Description,Package,"Supplier 1","Supplier 1 SKU","Supplier 1 Price/Unit","Supplier 1 Extended Price",Notes
+1,1,R4,Rohm,MCR03ERTJ104,"RES SMD 100K OHM 5% 1/10W 0603",,Digi-Key,RHM100KCGCT-ND,0.1,0.1,
+2,2,"R3, 
+R2",Rohm,MCR03ERTJ103,"CHIP RESISTOR 0603 10K OHM 5%",,Digi-Key,RHM10KCGDKR-ND,0.1,0.2,
+3,1,D8,Kingbright,APT1608EC,SMTLEDASSY20MARED0603SM,'0603,Mouser,604-APT1608EC,0.13,0.13,"Lead Free, RoHS Compliant"
+4,1,C2,Kemet,C0603C104K8RACTU,"CAP CER 0.1UF 10V 10% X7R 0603",'0603,Newark,77R3552,0.003,0.003,"R, RoHS Compliant"
+5,1,FD3,,,,,,,,,
+6,1,FD1,,,,,,,,,
+7,1,C1,"AVX Interconnect / Elco",TAJP106K010RNJ,"CAP TANT 10UF 10V 10% 0805",'0805,Newark,65M4924,0.413,0.413,"Lead Free, RoHS Compliant"
+8,2,"D6, 
+D7",Kingbright,APT1608YC,"1.6X0.8MM YELLOW SMD LED",'0603,"Allied Electronics",'70062843,0.134,0.268,"Lead Free, RoHS Compliant"
+9,5,"D3, 
+D2, 
+D4, 
+D5, 
+D1",Kingbright,APT1608SGC,"1.6X0.8MM GREEN SMD LED",'0603,"Future Electronics",APT1608SGC,0.0429,0.2145,"Lead Free, RoHS Compliant"
+10,1,C5,"AVX Interconnect / Elco",0603YC101KAT2A,"CAP CER 100PF 16V 10% X7R 0603",'0603,Newark,94W2848,0.032,0.032,"Lead Free, RoHS Compliant"
+11,1,C4,Murata,GRM31MR61C105KA01L,"CAP,1UF,10%,16V,X5R,CERAM",'1206,Digi-Key,490-1810-1-ND,0.28,0.28,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+12,1,C3,Samsung,CL31A475KPHNNNE,"CAP CER 4.7UF 10V 10% X5R 1206",'1206,Digi-Key,1276-1809-6-ND,0.25,0.25,"Lead Free, RoHS Compliant"
+13,1,JP1,,,,,,,,,
+14,1,R5,Rohm,MCR03ERTJ182,"RES SMD 1.8K OHM 5% 1/10W 0603",,Digi-Key,RHM1.8KCGDKR-ND,0.1,0.1,
+15,1,R1,Rohm,MCR03ERTJ152,"RES SMD 1.5K OHM 5% 1/10W 0603",,Digi-Key,RHM1.5KCGCT-ND,0.1,0.1,
+16,1,FD2,,,,,,,,,
+17,1,U2,"Texas Instruments",OPA344UA,"IC OPAMP GP 1MHZ RRO 8SOIC",SOIC-8,Arrow,OPA344UA,0.8914,0.8914,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+18,1,MK1,InvenSense,INMP401ACEZ,"Omnidirectional Analog MEMS Microphone",,"Component Distributors Inc.",INMP401ACEZ,1.62,1.62,
+19,1,U1,STMicroelectronics,STP08DP05TTR,"IC LED DRIVER LINEAR 16-TSSOP",,Newark,57P1838,0.829,0.829,"Lead Free, RoHS Compliant, Lifecycle Status Active"
