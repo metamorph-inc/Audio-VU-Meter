@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="4857c00f-dc92-44f0-85f2-09ac1dd02ba5" Name="OPA344" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-c7b3fb1c-28b8-4107-ba16-f9b994a0fefe" Author="" Notes="" XPosition="637" YPosition="238" Name="EDAModel" Package="SOT23-5" Device="" Library="ecad(1)" DeviceSet="OPA344" xmlns="">
+    <Pin ID="id-f52a1e1e-9972-429d-9763-e9eacd1b499c" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="OUT" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-773fa468-b54a-467e-aa4a-aceed12859a9" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="+IN" EDAGate="G$1" EDASymbolLocationX="-5.08" EDASymbolLocationY="-2.54" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-c951b003-fe3c-48d6-9982-9f74dbbb2dc0" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="-IN" EDAGate="G$1" EDASymbolLocationX="-5.08" EDASymbolLocationY="2.54" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-a35e46b8-56fd-401c-b1ac-97fae0efd201" PortMap="id-13d4b043-6ec5-4215-8af8-72bb5d623e32" Notes="" XPosition="425" Definition="" YPosition="25" Name="V+" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="7.62" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-d911904b-d22b-4b6a-b4e3-6ecbd8ed596c" PortMap="id-2702a572-9fa3-4564-88ce-8e6fce223e32" Notes="" XPosition="325" Definition="" YPosition="25" Name="V-" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <DomainModel xmlns:q2="spice" xsi:type="q2:SPICEModel" UsesResource="id-50615162-4a48-4ff9-a4a0-a0643c15641f" Author="" Notes="Created using SPICE Model CAT Module" XPosition="616" YPosition="525" Name="OPA2344_SPICEModel" Class="X:OPA2344" xmlns="">
+    <Pin ID="id-e214f0e7-2d94-456d-836a-e76e04776c2a" PortMap="" Notes="" XPosition="50" Definition="" YPosition="50" Name="2" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="1" />
+    <Pin ID="id-69dcb626-c49a-4e4a-9ba8-1747e4ed4186" PortMap="" Notes="" XPosition="50" Definition="" YPosition="450" Name="7" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="2" />
+    <Pin ID="id-a68897f3-4962-4ffa-a07c-26cfc6304070" PortMap="id-2a68bd32-41bd-4049-b899-e40b8f257d50" Notes="" XPosition="50" Definition="" YPosition="350" Name="6" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="4" />
+    <Pin ID="id-a8be2b1c-e745-4683-8d9a-730b955d3532" PortMap="id-63cd69b7-d005-426a-9ea2-180f291cc516" Notes="" XPosition="50" Definition="" YPosition="150" Name="3" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Pin ID="id-c2feabe4-3fcb-4bcf-b0bc-161bc64c60b4" PortMap="" Notes="" XPosition="50" Definition="" YPosition="250" Name="4" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="3" />
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-b5f6204c-05a5-4315-bf92-75ed4c301e12" XPosition="441" YPosition="14" xmlns="">
+    <Value ID="id-b5f6204c-05a5-4315-bf92-75ed4c301e12" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>OPA344UA</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency XPosition="665" YPosition="679" Name="SPICEModelFile" Path="Spice\OPA2344.cir" Hash="" ID="id-50615162-4a48-4ff9-a4a0-a0643c15641f" Notes="Derived from 'F:\SPICE\OPA2344.cir'.&#xA;" xmlns="" />
+  <ResourceDependency Name="Opa344.md" Path="doc\Opa344.md" Hash="" ID="id-9afc2af3-5d35-4f65-a122-034c62723491" Notes="" xmlns="" />
+  <ResourceDependency XPosition="1127" YPosition="49" Name="OPA344.mdown" Path="doc\OPA344.mdown" Hash="" ID="id-167adceb-c6bf-460e-8eee-67c630b72745" Notes="" xmlns="" />
+  <ResourceDependency XPosition="42" YPosition="7" Name="Icon.png" Path="Icon.png" Hash="" ID="id-49fcc477-654c-479c-b733-d5815f80bc00" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="686" YPosition="161" Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-c7b3fb1c-28b8-4107-ba16-f9b994a0fefe" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <ResourceDependency XPosition="189" YPosition="7" Name="OPA344_datasheet.pdf" Path="doc\OPA344_datasheet.pdf" Hash="" ID="id-83f27cff-c984-4c0a-97e5-990157f224d9" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-f09b9d04-7374-485d-8f52-5e0ce54deff9" ApplyJoinData="" Notes="" Name="Vn" Definition="" YPosition="245" XPosition="868" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-13d4b043-6ec5-4215-8af8-72bb5d623e32" PortMap="id-69dcb626-c49a-4e4a-9ba8-1747e4ed4186" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-330574da-0c5c-4a03-b1bc-acf65dae47ab" ApplyJoinData="" Notes="" Name="Vp" Definition="" YPosition="133" XPosition="868" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-2702a572-9fa3-4564-88ce-8e6fce223e32" PortMap="id-c2feabe4-3fcb-4bcf-b0bc-161bc64c60b4" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-f52fe143-424b-4db9-9b70-c5bde2fdd149" ApplyJoinData="" Notes="" Name="OUT" Definition="" YPosition="364" XPosition="868" xmlns="">
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-2a68bd32-41bd-4049-b899-e40b8f257d50" PortMap="id-f52a1e1e-9972-429d-9763-e9eacd1b499c" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-7bdc1581-5418-4028-8d9a-29da7076a571" ApplyJoinData="" Notes="" Name="IN_p" Definition="" YPosition="245" XPosition="371" xmlns="">
+    <Role xmlns:q7="schematic" xsi:type="q7:Pin" ID="id-63cd69b7-d005-426a-9ea2-180f291cc516" PortMap="id-773fa468-b54a-467e-aa4a-aceed12859a9" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-25630ed4-14aa-4edf-99d6-78055e974ada" ApplyJoinData="" Notes="" Name="IN_n" Definition="" YPosition="133" XPosition="371" xmlns="">
+    <Role xmlns:q8="schematic" xsi:type="q8:Pin" ID="id-4edbafd9-3501-4df8-930c-5488372af8e0" PortMap="id-e214f0e7-2d94-456d-836a-e76e04776c2a id-c951b003-fe3c-48d6-9982-9f74dbbb2dc0" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">semiconductors_and_actives.amplifiers_buffers.operational_amplifiers</Classifications>
+</Component>

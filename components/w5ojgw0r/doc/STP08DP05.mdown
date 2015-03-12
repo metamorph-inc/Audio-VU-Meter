@@ -1,0 +1,27 @@
+# Low voltage 8-bit constant current LED sink with full outputs error detection
+## STP08DP05XTTR
+### Semiconductors and Actives > Power Management > LED Drivers
+***
+
+###Summary
+IC LED DRIVER LINEAR 16-TSSOP
+
+####General Description
+The STP08DP05 is a monolithic, low voltage, low current power 8-bit shift register designed for LED panel displays. The STP08DP05 contains a 8-bit serial-in, parallel-out shift register that feeds a 8-bitD-type storage register. In the output stage, eight regulated current sources were designed to provide 5-100 mA constant current to drive the LEDs.
+
+The STP08DP05 is backward compatible in the functionality and footprint with STP8C/L596 and extends its functionality with open and short detection on the outputs. The detection circuit checks 3 different conditions that can occur on the output line: short to GND, short to VO, or open line. The data detection results are loaded in the shift register and shifted out via the serial line output.
+
+The detection functionality is implemented without increasing the pin number, through a secondary function of the output enable and latch pin (DM1 and DM2 respectively), a dedicated logic sequence allows the device to enter or leave from detection mode. Through an external resistor, users can adjust the STP08DP05 output current, controlling in this way the light intensity of LEDs, in addition, user can adjust LED’s brightness intensity from 0% to 100% via OE/DM2 pin.
+
+The STP08DP05 guarantees a 20 V output driving capability, allowing users to connect more LEDs in series. The high clock frequency, 30 MHz, also satisfies the system requirement of high volume data transmission. The 3.3 V of voltage supply is well useful for applications that interface any micro from 3.3 V. Compared with a standard TSSOP package, the TSSOP exposed pad increases heat dissipation capability by a 2.5 factor. 
+
+###Connectors 
+- ***SDI* [DigitalSignal]:** Serial data input
+- ***CLK* [DigitalSignal]:** Clock input
+- ***LE/DM1* [DigitalSignal]:** Latch input 
+- ***OUT 0-7* [AnalogSignal]:** Output terminals
+- ***OE/DM2* [DigitalSignal]:** Output enable input (active low)
+- ***SDO* [DigitalSignal]:** Serial data output
+- ***R-EXT* [AnalogSignal]:** Constant current programming
+- ***VDD* [PwrGnd_TwoPort]:** 5 V supply voltage
+- ***GND* [PwrGnd_TwoPort]:** Power supply ground

@@ -1,0 +1,23 @@
+# Operational Amplifier
+## OPA344
+### Semiconductor and Actives > Amplifiers Buffers > Audio Amplifiers 
+***
+
+###Summary
+Low Power, Single-Supply, Rail-To-Rail Operational Amplifiers MicroAmplifier(TM) Series SOT23-5
+
+####General Description
+The OPA344 and OPA345 series rail-to-rail CMOS
+operational amplifiers are designed for precision, low-power,
+miniature applications. The OPA344 is unity gain stable,
+while the OPA345 is optimized for gains greater than or equal
+to five, and has a gain-bandwidth product of 3MHz.
+
+###Connectors 
+- ***V+* [StdSignal]:** Positive Power Supply
+- ***V-* [StdSignal]:** Negative Power Supply
+- ***IN-* [StdSignal]:** Negative Differential Input
+- ***IN+* [StdSignal]:** Positive Differential Input
+- ***OUT* [StdSignal]:** Output Signal
+
+

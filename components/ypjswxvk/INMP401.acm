@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="d6bbcbca-d48f-4cbc-b265-47c15cd4479c" Name="INMP401" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-4b2dd2a3-e3ee-4ecb-b6d0-943673b14091" Author="" Notes="" XPosition="602" YPosition="336" Name="EDAModel" Package="INMP401" Device="" Library="VUmeterlib" DeviceSet="INMP401" xmlns="">
+    <Pin ID="id-a6b8038f-8329-49db-bca6-ec874deb79d1" PortMap="id-e85785dd-8ee0-4497-94a9-4481f24d0768" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-6ba4f8f2-2157-4bb6-a968-8821e13dcb93" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="VDD" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="7.62" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-0e688496-75fb-4bd8-aff1-fc9e97817afd" PortMap="id-cb0e03f3-6464-4dca-b19f-edc6a24be9e3" Notes="" XPosition="125" Definition="" YPosition="25" Name="OUT" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <DomainModel xmlns:q2="spice" xsi:type="q2:SPICEModel" UsesResource="id-cdabb737-5097-4099-9d9a-9ee1f437d6c8" Author="" Notes="Created using SPICE Model CAT Module" XPosition="595" YPosition="609" Name="INMP401_SPICEModel" Class="X:INMP401" xmlns="">
+    <Pin ID="id-080638ff-a08d-4c88-baaa-7f3a95fe50f4" PortMap="" Notes="" XPosition="50" Definition="" YPosition="50" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="1" />
+    <Pin ID="id-03b75dc7-3d7d-4aed-ab03-fc87519f3853" PortMap="" Notes="" XPosition="50" Definition="" YPosition="150" Name="OUT" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="2" />
+    <Pin ID="id-3763d96f-034c-443c-95ad-42b7e9e93068" PortMap="" Notes="" XPosition="50" Definition="" YPosition="250" Name="VDD" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-79cf6d33-1cef-4072-8c2c-5aa353fa6681" XPosition="308" YPosition="21" xmlns="">
+    <Value ID="id-79cf6d33-1cef-4072-8c2c-5aa353fa6681" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>INMP401ACEZ</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency XPosition="133" YPosition="28" Name="INMP401.pdf" Path="doc\INMP401.pdf" Hash="" ID="id-fcce22e7-ea94-4d82-bace-84b15914e597" Notes="" xmlns="" />
+  <ResourceDependency XPosition="84" YPosition="140" Name="INMP401.mdown" Path="doc\INMP401.mdown" Hash="" ID="id-25598c7d-75f0-4add-a38c-61049b8a21e6" Notes="" xmlns="" />
+  <ResourceDependency XPosition="644" YPosition="497" Name="SPICEModelFile" Path="Spice\INMP401.CIR" Hash="" ID="id-cdabb737-5097-4099-9d9a-9ee1f437d6c8" Notes="Derived from 'F:\SPICE\INMP401.CIR'.&#xA;" xmlns="" />
+  <ResourceDependency XPosition="224" YPosition="42" Name="Icon.png" Path="Icon.png" Hash="" ID="id-c409eaac-3d20-4e55-878e-3bab5967076e" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="651" YPosition="252" Name="ecad(1)" Path="Schematic\ecad(1).lbr" Hash="" ID="id-4b2dd2a3-e3ee-4ecb-b6d0-943673b14091" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-54bda67a-10b3-4864-b559-87b54efa34e1" ApplyJoinData="" Notes="" Name="PwrGnd_TwoPort" Definition="" YPosition="259" XPosition="889" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-e85785dd-8ee0-4497-94a9-4481f24d0768" PortMap="id-798cbc28-618a-477d-b029-04e34e53f425 id-080638ff-a08d-4c88-baaa-7f3a95fe50f4" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-6d53771d-0783-4136-9d94-1d0a7fe33ff6" PortMap="id-6ba4f8f2-2157-4bb6-a968-8821e13dcb93 id-3763d96f-034c-443c-95ad-42b7e9e93068" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-0e613c79-3712-49a3-9749-de6e976ca692" ApplyJoinData="" Notes="" Name="Out" Definition="" YPosition="462" XPosition="966" xmlns="">
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-cb0e03f3-6464-4dca-b19f-edc6a24be9e3" PortMap="id-03b75dc7-3d7d-4aed-ab03-fc87519f3853" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q7="schematic" xsi:type="q7:Pin" ID="id-798cbc28-618a-477d-b029-04e34e53f425" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">sound_input-output.microphones</Classifications>
+</Component>

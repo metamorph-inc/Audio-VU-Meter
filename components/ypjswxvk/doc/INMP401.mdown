@@ -1,0 +1,21 @@
+# Omnidirectional Microphone with Bottom Port and Analog Output
+## INMP401
+### Sound Input/Output > Microphones
+***
+
+###Summary
+Omnidirectional Analog MEMS Microphone
+
+####General Description
+The INMP 401 is a high-quality, high-performance, low-power, analog-output bottom-ported omnidirectional MEMS microphone. The INMP401 consists of a MEMS microphone element, an impedance converter, and an output amplifier. The INMP401 sensitivity specification makes it an excellent choice for near-field applications. The INMP401 has a wideband frequency response, resulting in natural sound with high intelligibility. The specially designed low frequency cutoff reduces wind noise. Its low current consumption enables long battery life for portable applications.
+
+The INMP401 complies with the TIA-920 Telecommunications Telephone Terminal Equipment Transmission Requirements for Wideband Digital Wireline Telephones standard.
+
+The INMP401 is available in a 4.72 × 3.76 × 1.00 mm surface-mount package. It is reflow solder compatible with no sensitivity degradation. The INMP401 is halide free.
+
+###Connectors 
+- ***OUT* [AnalogSignal]:** Analog Output Signal
+- ***VDD* [PwrGnd_TwoPort]:** Supply voltage
+- ***GND* [PwrGnd_TwoPort]:** Power supply ground
+
+
