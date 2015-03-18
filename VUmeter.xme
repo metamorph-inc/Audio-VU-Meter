@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project SYSTEM "mga.dtd">
 
-<project guid="{70A4447E-0FD2-4AD4-ADAF-8299E4350DA6}" cdate="Wed Mar 18 15:24:10 2015" mdate="Wed Mar 18 15:24:10 2015" version="" metaguid="{8612371E-F4E5-4D83-80CE-3B9120B180F3}" metaversion="14.10-t9" metaname="CyPhyML">
+<project guid="{A848A1B9-5BCA-4547-8625-55E76AABA1BE}" cdate="Wed Mar 18 15:24:10 2015" mdate="Wed Mar 18 15:24:10 2015" version="" metaguid="{8612371E-F4E5-4D83-80CE-3B9120B180F3}" metaversion="14.10-t9" metaname="CyPhyML">
 	<name>RootFolder</name>
 	<comment></comment>
 	<author></author>
@@ -93,7 +93,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>392,427</value>
+								<value>406,441</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -216,7 +216,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>266,343</value>
+								<value>217,294</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -339,7 +339,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>231,343</value>
+								<value>84,196</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -462,7 +462,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>301,343</value>
+								<value>441,441</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -585,7 +585,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>14,91</value>
+								<value>70,105</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -708,7 +708,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>49,91</value>
+								<value>35,105</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -1064,6 +1064,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
 					</attribute>
@@ -1084,6 +1087,9 @@
 								<value>1148,252</value>
 							</regnode>
 						</regnode>
+					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
 					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
@@ -1106,6 +1112,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
 					</attribute>
@@ -1126,6 +1135,9 @@
 								<value>1148,420</value>
 							</regnode>
 						</regnode>
+					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
 					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
@@ -1148,6 +1160,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
 					</attribute>
@@ -1168,6 +1183,9 @@
 								<value>1155,630</value>
 							</regnode>
 						</regnode>
+					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
 					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
@@ -1190,6 +1208,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="RelativeLayer">
 						<value>Same</value>
 					</attribute>
@@ -1211,6 +1232,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="Layer">
 						<value>0</value>
 					</attribute>
@@ -1218,10 +1242,10 @@
 						<value></value>
 					</attribute>
 					<attribute kind="X">
-						<value>1.5</value>
+						<value>2</value>
 					</attribute>
 					<attribute kind="Y">
-						<value>1.5</value>
+						<value>2</value>
 					</attribute>
 				</atom>
 				<atom id="id-0066-00000013" kind="ExactLayoutConstraint" role="ExactLayoutConstraint" guid="{bf6edd1c-d089-410d-a1f7-f1dc793cf5b6}" relid="0x126">
@@ -1235,6 +1259,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="Layer">
 						<value>0</value>
 					</attribute>
@@ -1242,10 +1269,10 @@
 						<value></value>
 					</attribute>
 					<attribute kind="X">
-						<value>1.5</value>
+						<value>2</value>
 					</attribute>
 					<attribute kind="Y">
-						<value>37.5</value>
+						<value>38</value>
 					</attribute>
 				</atom>
 				<atom id="id-0066-00000014" kind="ExactLayoutConstraint" role="ExactLayoutConstraint" guid="{24230737-96c6-4a7f-ad24-c7fc370bd4d0}" relid="0x13f">
@@ -1259,6 +1286,9 @@
 							</regnode>
 						</regnode>
 					</regnode>
+					<regnode name="constraintMigrated" isopaque="yes">
+						<value>Migrated</value>
+					</regnode>
 					<attribute kind="Layer">
 						<value>0</value>
 					</attribute>
@@ -1266,10 +1296,10 @@
 						<value></value>
 					</attribute>
 					<attribute kind="X">
-						<value>17.5</value>
+						<value>18</value>
 					</attribute>
 					<attribute kind="Y">
-						<value>37.5</value>
+						<value>38</value>
 					</attribute>
 				</atom>
 				<atom id="id-0066-00000015" kind="RangeLayoutConstraint" role="RangeLayoutConstraint" guid="{1ef51436-1e2b-4dea-be12-22d6fdc341b1}" relid="0x158">
@@ -1591,7 +1621,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>469,427</value>
+								<value>728,175</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -1921,7 +1951,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>245,497</value>
+								<value>168,581</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -1987,7 +2017,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>105,413</value>
+								<value>406,714</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2053,7 +2083,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>343,343</value>
+								<value>329,357</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2119,7 +2149,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>364,161</value>
+								<value>602,7</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2185,7 +2215,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>7,329</value>
+								<value>231,490</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2251,7 +2281,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>616,7</value>
+								<value>511,175</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2317,7 +2347,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>98,259</value>
+								<value>350,189</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2383,7 +2413,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>7,175</value>
+								<value>350,105</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2581,7 +2611,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>175,175</value>
+								<value>161,161</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2647,7 +2677,7 @@
 						<regnode name="SystemCAspect" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>91,91</value>
+								<value>7,259</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -2704,6 +2734,12 @@
 								<value>434,91</value>
 							</regnode>
 						</regnode>
+						<regnode name="SystemCAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>7,357</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -2728,6 +2764,18 @@
 								<value>1344,315</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>308,7</value>
+							</regnode>
+						</regnode>
+						<regnode name="SystemCAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>196,665</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -2750,6 +2798,18 @@
 							<value></value>
 							<regnode name="Position" isopaque="yes">
 								<value>182,1022</value>
+							</regnode>
+						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>140,140</value>
+							</regnode>
+						</regnode>
+						<regnode name="SystemCAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>490,441</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -3478,6 +3538,12 @@
 								<value>602,294</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>105,105</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -3502,6 +3568,12 @@
 								<value>420,287</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>301,301</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -3523,7 +3595,13 @@
 						<regnode name="All" status="undefined">
 							<value></value>
 							<regnode name="Position" isopaque="yes">
-								<value>910,504</value>
+								<value>903,511</value>
+							</regnode>
+						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>287,91</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -3550,6 +3628,12 @@
 								<value>693,462</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>7,287</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -3572,6 +3656,12 @@
 							<value></value>
 							<regnode name="Position" isopaque="yes">
 								<value>1246,147</value>
+							</regnode>
+						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>203,203</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -3622,6 +3712,12 @@
 								<value>1281,49</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>196,7</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -3646,6 +3742,12 @@
 								<value>476,77</value>
 							</regnode>
 						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>385,385</value>
+							</regnode>
+						</regnode>
 					</regnode>
 					<attribute kind="Cardinality" status="meta">
 						<value></value>
@@ -3668,6 +3770,12 @@
 							<value></value>
 							<regnode name="Position" isopaque="yes">
 								<value>1365,266</value>
+							</regnode>
+						</regnode>
+						<regnode name="PcbLayoutAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>7,203</value>
 							</regnode>
 						</regnode>
 					</regnode>
@@ -26964,8 +27072,8 @@
 							<attribute kind="HasMultiLayerFootprint">
 								<value>false</value>
 							</attribute>
-							<attribute kind="Library">
-								<value>VUmeterlib</value>
+							<attribute kind="Library" status="meta">
+								<value></value>
 							</attribute>
 							<attribute kind="Notes">
 								<value></value>
@@ -31789,8 +31897,8 @@
 								<attribute kind="HasMultiLayerFootprint">
 									<value>false</value>
 								</attribute>
-								<attribute kind="Library">
-									<value>VUmeterlib</value>
+								<attribute kind="Library" status="meta">
+									<value></value>
 								</attribute>
 								<attribute kind="Notes">
 									<value></value>
